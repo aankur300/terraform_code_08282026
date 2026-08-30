@@ -2,11 +2,11 @@ module "rg" {
   source = "../child_modules/azurerm_resource_group"
   rgs = {
     rg1 = {
-      name     = "rg-om"
+      name     = "rg-nisha"
       location = "eastus"
     }
     rg2 = {
-      name     = "rg-dia"
+      name     = "rg-yashu"
       location = "eastus"
     }
   }
