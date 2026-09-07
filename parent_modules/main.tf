@@ -2,11 +2,11 @@ module "rg" {
   source = "../child_modules/azurerm_resource_group"
   rgs = {
     rg1 = {
-      name     = "rg-om"
+      name     = "rg-nisha"
       location = "eastus"
     }
     rg2 = {
-      name     = "rg-dia"
+      name     = "rg-yashu"
       location = "eastus"
     }
   }
@@ -90,7 +90,7 @@ module "vms" {
       location             = "eastus"
       resource_group_name  = "rg-ankur"
       subnet_name          = "backend-subnet"
-      virtual_network_name = "nsv7a0ntas0002c"
+      virtual_network_name = "nsv7a0ntas0003c"
       pip_name             = "pipnsv4"
       vm_name              = "backend-vm"
       size                 = "Standard_DC1ds_v3"

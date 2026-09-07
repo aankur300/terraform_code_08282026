@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "rg-ankurbaghel"
-    storage_account_name = "chc4a0ntas0001c"
+    storage_account_name = "chc4a0ntas0002c"
     container_name       = "ojas"
     key                  = "ojas.tfstate"
   }
